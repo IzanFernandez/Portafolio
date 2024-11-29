@@ -1,6 +1,6 @@
 # WebTA04 - Portafolio del Grupo 7
 
-Este proyecto es el portafolio web del **Grupo 7** del grado **ASIXc1B** **MDS** **TA04**, el cual muestra información sobre los integrantes del grupo: **Alberto**, **Oscar** e **Izan**. La página web está alojada en **GitHub Pages** y está disponible a través del dominio **[grup7.blog](http://grup7.blog)**.
+Este proyecto es el portafolio web del **Grupo 7** del grado **ASIXc1B** **MDS** **TA04**, el cual muestra información sobre los integrantes del grupo: **Alberto**, **Oscar** e **Izan**. La página web está alojada en **GitHub Pages** y está disponible a través del dominio **[grup7.cat](http://grup7.cat)**.
 
 ## Descripción
 

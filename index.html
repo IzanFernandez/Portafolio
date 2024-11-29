@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izan Fernandez - Portafolio</title>
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
-</head>
-<body>
 <header>
     <div id="logo-container">
         <img src="assets/images/logo.png" alt="Logo del portafolio" id="logo">
@@ -34,22 +24,44 @@
         <h2 class="titulo-proyectos">Mis Proyectos</h2>
         <div class="proyectos-container">
         
-            <!-- Titulo + Breve descripcion -->
+            <!-- proyecto 1 -->
             <article class="proyecto">
                 <h3 class="titulo-proyecto">Snake Game</h3>
-                <img src="assets/images/Izan/snake_game.png" alt="Imagen del Proyecto" class="assets/image/Izan/snake_game.png">
+                <img src="assets/images/Izan/snake_game.png" alt="Imagen del Proyecto" class="imagen-proyecto">
+>
                 <p class="descripcion-proyecto">Este fue el primer juego que desarrolle. En este juego, el objetivo es hacer crecer a la serpiente. Para ello, debe comer los objetos que que aparecen en la pantalla para conseguir puntos. La dificultad aumenta porque no puede chocar contra las paredes ni contra su propio cuerpo. Cuantos más puntos consigas, más grande se hará la serpiente y más difícil se volverá el juego.</p>
                 
                 <!-- Detalles -->
                 <div class="expandir-info">
-                    <p><strong>Fecha de inicio:</strong> Fecha del proyecto</p>
-                    <p><strong>Tecnologías utilizadas:</strong> Tecnologías principales del proyecto</p>
-                    <p><strong>Descripción:</strong> Detalles sobre el proyecto y lo que se aprendió/realizó.</p>
+                    <p><strong>Fecha de inicio:</strong> 3/4/2023</p>
+                    <p><strong>Tecnologías utilizadas:</strong> Python</p>
+                    <p><strong>Descripción:</strong> Para realizar este pequeño proyecto tuve que aprender un poco a utilizar la biblioteca Pygame.</p>
                 </div>
         
                 <!-- Botones -->
                 <div class="botones">
-                    <a href="https://github.com/usuario/proyecto" class="boton">Ver Proyecto</a>
+                    <a href="https://github.com/IzanFernandez/Games/tree/main/Snake" class="boton">Ver Proyecto</a>
+                    <button class="boton-mas" onclick="toggleInfo(this)">Más</button>
+                </div>
+            </article>
+
+             <!-- proyecto 2 -->
+             <article class="proyecto">
+                <h3 class="titulo-proyecto">Conversor de unidades</h3>
+                <img src="assets/images/Izan/Conversor_menu.png" alt="Imagen del Proyecto" class="imagen-proyecto">
+>
+                <p class="descripcion-proyecto">Este programa fue una pequeña calculadora de para pasar de Unas unidades a otras. Se compone de un menu donde eligiras el tipo de unidad que quieres pasar, en el caso de escoger Longitud podras pasar de Kilometros a metros con el simple paso de escoger esos apartados y poner la longitud que quieres convertir.</p>
+                
+                <!-- Detalles -->
+                <div class="expandir-info">
+                    <p><strong>Fecha de inicio:</strong> 22/6/2023</p>
+                    <p><strong>Tecnologías utilizadas:</strong> Python</p>
+                    <p><strong>Descripción:</strong> Para realizar esta calculadora tuve que aprender a hacer definiciones y a saber poder calcular las conversiones de una medida a otra.</p>
+                </div>
+        
+                <!-- Botones -->
+                <div class="botones">
+                    <a href="https://github.com/IzanFernandez/Games/tree/main/conversor" class="boton">Ver Proyecto</a>
                     <button class="boton-mas" onclick="toggleInfo(this)">Más</button>
                 </div>
             </article>

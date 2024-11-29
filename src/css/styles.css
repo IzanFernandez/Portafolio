@@ -63,6 +63,11 @@ header nav a:hover {
     text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
+.boton-cv:hover{
+    background-color: #0066ff;
+    transform: scale(1.5);
+    
+}
 .imagen_oscar{
     width: 20%;
     height: auto;
